@@ -1,0 +1,36 @@
+body {
+  background: #eeedec;
+  letter-spacing: 0.2em;
+  font-size: 1rem;
+}
+.container {
+  max-width: 40rem;
+  height: 90vh;
+}
+
+.time {
+  height: 22rem;
+}
+
+label {
+  font-size: 1.75rem;
+  color: #e7571a;
+  font-weight: 500;
+}
+
+.details {
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 1080px) {
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+}
